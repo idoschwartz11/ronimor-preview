@@ -1,0 +1,94 @@
+/*
+Theme name: Ronimor
+Description: Custom Theme
+*/
+
+/*
+	Source post-css styles are located in resources/css/
+	The compiled bundle is saved to `dist/css/bundle-${fingerprint}.css`
+	(dist/manifest.json provides the exact path mapping).
+
+	DEVELOPMENT.md file contains instructions how to get the compilation
+	process up & running.
+
+	If you need to make a quick fix, feel free to add CSS
+	below this comment -- it's loaded after the compiled bundle.
+*/
+
+p {  }
+
+/* ------------------------------------------------------------ *\
+	Stats counter band — homepage ("רונימור במספרים")
+	Below the hero, above the company-details section.
+	Native theme styling: flat, square, Abraham, green/gold, .4s.
+	Added by ALIS Technologies, 2026-06-29.
+\* ------------------------------------------------------------ */
+
+.section-stats { background: #fff; padding: 100px 0 72px; overflow: hidden; }
+
+.section-stats .stats { display: flex; flex-wrap: wrap; text-align: center; }
+
+.section-stats .stats__item { flex: 1; padding: 0 36px; }
+
+.section-stats .stats__item + .stats__item { border-inline-start: 1px solid rgba(59, 111, 98, 0.15); }
+
+.section-stats .stats__num {
+	display: block;
+	color: inherit;
+	font-weight: 700;
+	line-height: 1;
+	font-size: 8rem;
+	white-space: nowrap;
+	font-variant-numeric: tabular-nums;
+}
+
+/* One colour per stat — exact "השירותים שלנו" service-title palette.
+   Set on the item so BOTH the number and its label inherit it. */
+.section-stats .stats__item:nth-child(1) { color: #3b6f62; } /* green  */
+.section-stats .stats__item:nth-child(2) { color: #d2b498; } /* gold   */
+.section-stats .stats__item:nth-child(3) { color: #fde18d; } /* yellow */
+.section-stats .stats__item:nth-child(4) { color: #35c786; } /* bright green */
+
+.section-stats .stats__icon {
+	display: block;
+	font-size: 4rem;
+	line-height: 1;
+	margin-bottom: 22px;
+	color: inherit;        /* matches its stat's colour */
+}
+
+.section-stats .stats__suffix {
+	font-style: normal;
+	font-size: 1em;            /* same size as the number: 700K, 24/7 */
+	color: inherit;
+	margin-inline-start: 0;
+	vertical-align: baseline;
+}
+
+.section-stats .stats__label {
+	display: block;
+	margin-top: 22px;
+	color: inherit;
+	font-weight: 700;
+	font-size: 2rem;
+}
+
+/* Entrance — theme-standard .4s transition, no keyframes */
+.section-stats .stats__item { opacity: 0; transform: translateY(20px); transition: opacity .4s, transform .4s; }
+.section-stats.is-visible .stats__item { opacity: 1; transform: none; }
+.section-stats.is-visible .stats__item:nth-child(2) { transition-delay: .08s; }
+.section-stats.is-visible .stats__item:nth-child(3) { transition-delay: .16s; }
+.section-stats.is-visible .stats__item:nth-child(4) { transition-delay: .24s; }
+
+@media (max-width: 767px) {
+	.section-stats { padding: 56px 0; }
+	.section-stats .stats__item { flex: 0 0 50%; padding: 24px 10px; }
+	.section-stats .stats__item + .stats__item { border-inline-start: 0; }
+	.section-stats .stats__icon { font-size: 3rem; margin-bottom: 14px; }
+	.section-stats .stats__num { font-size: 4.8rem; }
+	.section-stats .stats__label { font-size: 1.5rem; margin-top: 12px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.section-stats .stats__item { opacity: 1; transform: none; transition: none; }
+}

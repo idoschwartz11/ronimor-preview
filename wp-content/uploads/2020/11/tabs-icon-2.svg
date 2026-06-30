@@ -1,0 +1,11 @@
+<svg id="tabs-icon-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="93" height="93" viewBox="0 0 93 93">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Clip_2" data-name="Clip 2" d="M0,0H93V93H0Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <path id="Clip_2-2" data-name="Clip 2" d="M0,0H93V93H0Z" fill="none"/>
+  <g id="Group_3" data-name="Group 3" clip-path="url(#clip-path)">
+    <path id="Fill_1" data-name="Fill 1" d="M68.788,93a24.115,24.115,0,0,1-18.87-9.047H43.082A24.209,24.209,0,1,1,9.046,49.918V43.082A24.209,24.209,0,1,1,43.082,9.047h6.836A24.209,24.209,0,1,1,83.954,43.082v6.836A24.21,24.21,0,0,1,68.788,93ZM37.193,52.678,25.958,63.913l2.66,2.661L38.751,56.44H53.082V52.678Zm3.364-18.623v3.762H56.446L67.682,26.582l-2.66-2.66L54.889,34.055Z" fill="#ffe18f"/>
+  </g>
+</svg>

@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he-IL" dir="rtl" data-zoom="0">
+<head>
+<meta name="robots" content="noindex,nofollow,noarchive">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script>
+var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),document.addEventListener("gform/theme/scripts_loaded",function(){gform.themeScriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,themeScriptsLoaded:!1,isFormEditor:()=>"function"==typeof InitializeEditor,callIfLoaded:function(o){return!(!gform.domLoaded||!gform.scriptsLoaded||!gform.themeScriptsLoaded&&!gform.isFormEditor()||(gform.isFormEditor()&&console.warn("The use of gform.initializeOnLoaded() is deprecated in the form editor context and will be removed in Gravity Forms 3.1."),o(),0))},initializeOnLoaded:function(o){gform.callIfLoaded(o)||(document.addEventListener("gform_main_scripts_loaded",()=>{gform.scriptsLoaded=!0,gform.callIfLoaded(o)}),document.addEventListener("gform/theme/scripts_loaded",()=>{gform.themeScriptsLoaded=!0,gform.callIfLoaded(o)}),window.addEventListener("DOMContentLoaded",()=>{gform.domLoaded=!0,gform.callIfLoaded(o)}))},hooks:{action:{},filter:{}},addAction:function(o,r,e,t){gform.addHook("action",o,r,e,t)},addFilter:function(o,r,e,t){gform.addHook("filter",o,r,e,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,r){gform.removeHook("action",o,r)},removeFilter:function(o,r,e){gform.removeHook("filter",o,r,e)},addHook:function(o,r,e,t,n){null==gform.hooks[o][r]&&(gform.hooks[o][r]=[]);var d=gform.hooks[o][r];null==n&&(n=r+"_"+d.length),gform.hooks[o][r].push({tag:n,callable:e,priority:t=null==t?10:t})},doHook:function(r,o,e){var t;if(e=Array.prototype.slice.call(e,1),null!=gform.hooks[r][o]&&((o=gform.hooks[r][o]).sort(function(o,r){return o.priority-r.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==r?t.apply(null,e):e[0]=t.apply(null,e)})),"filter"==r)return e[0]},removeHook:function(o,r,t,n){var e;null!=gform.hooks[o][r]&&(e=(e=gform.hooks[o][r]).filter(function(o,r,e){return!!(null!=n&&n!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][r]=e)}});
+</script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="/ronimor-preview/xmlrpc.php" />
+
+	<title>Ronimor</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel="alternate" hreflang="en" href="/ronimor-preview/?lang=en" />
+<link rel="alternate" hreflang="he" href="/ronimor-preview/" />
+<link rel="alternate" hreflang="x-default" href="/ronimor-preview/" />
+<link rel="alternate" type="application/rss+xml" title="Ronimor &laquo; פיד‏" href="/ronimor-preview/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ronimor &laquo; פיד תגובות‏" href="/ronimor-preview/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="/ronimor-preview/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A8080%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="/ronimor-preview/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A8080%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-color]){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/ronimor-preview/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/ronimor-preview/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='theme-css-bundle-css' href='/ronimor-preview/wp-content/themes/ronimor/dist/css/bundle-ae6fd7b213.css?ver=7.0' media='all' />
+<link rel='stylesheet' id='theme-styles-css' href='/ronimor-preview/wp-content/themes/ronimor/style.css?ver=1782742462' media='all' />
+<script id="jquery-core-js" src="/ronimor-preview/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="/ronimor-preview/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<link rel="https://api.w.org/" href="/ronimor-preview/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="/ronimor-preview/wp-json/wp/v2/pages/124" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="/ronimor-preview/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.0" />
+<link rel="canonical" href="/ronimor-preview/" />
+<link rel='shortlink' href='/ronimor-preview/' />
+<meta name="generator" content="WPML ver:4.7.3 stt:1,20;" />
+<style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link rel="icon" href="/ronimor-preview/wp-content/uploads/2020/11/cropped-company-logo@2x-32x32.png" sizes="32x32" />
+<link rel="icon" href="/ronimor-preview/wp-content/uploads/2020/11/cropped-company-logo@2x-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="/ronimor-preview/wp-content/uploads/2020/11/cropped-company-logo@2x-180x180.png" />
+<meta name="msapplication-TileImage" content="/ronimor-preview/wp-content/uploads/2020/11/cropped-company-logo@2x-270x270.png" />
+<link rel='stylesheet' id='gforms_reset_css-css' href='/ronimor-preview/wp-content/plugins/gravityforms/legacy/css/formreset.min.css?ver=2.10.4' media='all' />
+<link rel='stylesheet' id='gforms_formsmain_css-css' href='/ronimor-preview/wp-content/plugins/gravityforms/legacy/css/formsmain.min.css?ver=2.10.4' media='all' />
+<link rel='stylesheet' id='gforms_ready_class_css-css' href='/ronimor-preview/wp-content/plugins/gravityforms/legacy/css/readyclass.min.css?ver=2.10.4' media='all' />
+<link rel='stylesheet' id='gforms_browsers_css-css' href='/ronimor-preview/wp-content/plugins/gravityforms/legacy/css/browsers.min.css?ver=2.10.4' media='all' />
+<link rel='stylesheet' id='gforms_rtl_css-css' href='/ronimor-preview/wp-content/plugins/gravityforms/legacy/css/rtl.min.css?ver=2.10.4' media='all' />
+
+</head>
+<body class="rtl home wp-singular page-template page-template-templates page-template-page-builder page-template-templatespage-builder-php page page-id-124 wp-embed-responsive wp-theme-ronimor">
+	<div class="wrapper">
+		<div class="wrapper__inner">
+			<header class="header">
+				<div class="shell">
+					<div class="header__inner">
+						<div class="header__logo">
+							<a href="/ronimor-preview" class="logo" >
+								<img src="/ronimor-preview/wp-content/themes/ronimor/resources/images/logo.svg" alt="Ronimor" />
+							</a>
+						</div><!-- /.header__logo -->
+
+													<button class="btn-menu" type="button">
+								<span></span>
+								<span></span>
+								<span></span>
+							</button><!-- /.btn-menu -->
+						
+						<div class="header__content">
+							<nav class="nav js-nav-scroll-to"><ul id="menu-main-menu" class="menu"><li id="menu-item-11" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-11"><a href="/ronimor-preview/#about-us">עלינו</a></li>
+<li id="menu-item-12" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-12"><a href="/ronimor-preview/#customers">לקוחותינו</a></li>
+<li id="menu-item-13" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-13"><a href="/ronimor-preview/#services">שירותים</a></li>
+<li id="menu-item-14" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-14"><a href="/ronimor-preview/#property">נכסים</a></li>
+<li id="menu-item-15" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-15"><a href="/ronimor-preview/#career">קריירה</a></li>
+<li id="menu-item-16" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-16"><a href="/ronimor-preview/#contact-us">צור קשר</a></li>
+</ul></nav>						</div><!-- /.header__content -->
+					</div><!-- /.header__inner -->
+				</div><!-- /.shell -->
+			</header><!-- /.header -->
+
+			<div class="main">
+
+<section class="section-hero">
+	<div class="slider slider--hero js-slider-hero" data-duration="10000">
+		<div class="slider__clip swiper-container">
+			<div class="slider__slides swiper-wrapper">
+				
+					<div class="slider__slide swiper-slide slider__slide--reversed">
+						
+							<div class="slider__video">
+								<span class="image-fit js-image-fit">
+									<video autoplay muted src="/ronimor-preview/wp-content/uploads/2021/03/animation.mp4"></video>
+								</span>
+							</div><!-- /.slider__video -->
+											</div><!-- /.slider__slide swiper-slide -->
+							</div><!-- /.slider__slides swiper-wrapper -->
+		</div><!-- /.slider__clip swiper-container -->
+	</div><!-- /.slider slider-/-hero -->
+</section><!-- /.section-hero -->
+<section class="section-stats" aria-label="רונימור במספרים">
+	<div class="shell">
+		<div class="section__inner">
+			<div class="stats">
+									<div class="stats__item">
+						<i class="stats__icon fas fa-ruler-combined" aria-hidden="true"></i>
+						<span class="stats__num"><span class="stats__number js-count" data-count="700">700</span><i class="stats__suffix">K</i></span>
+						<span class="stats__label">מ״ר בניהול שוטף</span>
+					</div><!-- /.stats__item -->
+									<div class="stats__item">
+						<i class="stats__icon fas fa-building" aria-hidden="true"></i>
+						<span class="stats__num"><span class="stats__number js-count" data-count="40">40</span><i class="stats__suffix">+</i></span>
+						<span class="stats__label">בנייני משרדים</span>
+					</div><!-- /.stats__item -->
+									<div class="stats__item">
+						<i class="stats__icon fas fa-award" aria-hidden="true"></i>
+						<span class="stats__num"><span class="stats__number js-count" data-count="25">25</span><i class="stats__suffix">+</i></span>
+						<span class="stats__label">שנות ניסיון</span>
+					</div><!-- /.stats__item -->
+									<div class="stats__item">
+						<i class="stats__icon fas fa-headset" aria-hidden="true"></i>
+						<span class="stats__num"><span class="stats__number js-count" data-count="24">24</span><i class="stats__suffix">/7</i></span>
+						<span class="stats__label">מוקד שירות</span>
+					</div><!-- /.stats__item -->
+							</div><!-- /.stats -->
+		</div><!-- /.section__inner -->
+	</div><!-- /.shell -->
+
+	<script>
+	(function () {
+		var section = document.currentScript.closest('.section-stats');
+		if (!section || section.dataset.rnmrInit) { return; }   // idempotent
+		section.dataset.rnmrInit = '1';
+
+		var reduce   = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+		var fmt      = new Intl.NumberFormat('he-IL');
+		var DURATION = 3000;
+		function ease(t) { return 1 - Math.pow(1 - t, 3); }   // ease-out cubic — gentler, slower roll
+
+		function countUp(el) {
+			var target = Number(el.dataset.count) || 0;
+			if (reduce) { el.textContent = fmt.format(target); return; }
+			var start = null;
+			requestAnimationFrame(function step(now) {
+				if (start === null) { start = now; }
+				var p = Math.min((now - start) / DURATION, 1);
+				el.textContent = fmt.format(Math.round(ease(p) * target));
+				if (p < 1) { requestAnimationFrame(step); }
+			});
+		}
+
+		function run() {
+			section.classList.add('is-visible');                 // triggers the CSS fade-up
+			section.querySelectorAll('.js-count').forEach(countUp);
+		}
+
+		if ('IntersectionObserver' in window) {
+			var io = new IntersectionObserver(function (entries, obs) {
+				entries.forEach(function (e) { if (e.isIntersecting) { run(); obs.disconnect(); } });
+			}, { threshold: 0.35 });
+			io.observe(section);
+		} else {
+			run();
+		}
+	})();
+	</script>
+</section><!-- /.section-stats -->
+<section class="section-company-details" data-scroll-id="about-us">
+	<div class="shell">
+		<div class="section__inner">
+			<div class="tabs tabs--company-details js-tabs">
+				<div class="tabs__head">
+					<nav class="tabs__nav">
+						<ul>
+															<li class="is-current">
+									<a href="#about-00">על החברה</a>
+								</li>
+															<li>
+									<a href="#about-01">צוות ההנהלה</a>
+								</li>
+													</ul>
+					</nav><!-- /.tabs__nav -->
+				</div><!-- /.tabs__head -->
+
+				<div class="tabs__body">
+											<div class="tab is-current" id="about-00">
+															<div class="tab__inner">
+									<div class="tab__image">
+										<img width="263" height="256" src="/ronimor-preview/wp-content/uploads/2020/11/company-logo@2x-263x256.png" class="attachment-logo_medium size-logo_medium" alt="" decoding="async" fetchpriority="high" srcset="/ronimor-preview/wp-content/uploads/2020/11/company-logo@2x-263x256.png 263w, /ronimor-preview/wp-content/uploads/2020/11/company-logo@2x-300x292.png 300w, /ronimor-preview/wp-content/uploads/2020/11/company-logo@2x.png 521w" sizes="(max-width: 263px) 100vw, 263px" />									</div><!-- /.tab__image -->
+
+									<div class="tab__content">
+										<p>׳רונימור׳ הינה חברה בצמיחה וחלק מקבוצת ׳SGS חברה לבניין בע”מ׳.<br />
+אנו ברונימור מאמינים, שניהול נכסים מוצלח הוא כזה שמאפשר לך, הלקוח, להתרכז בדברים החשובים ביותר. <br />
+אנו מקפידים לעבוד בסטנדרטים הגבוהים ביותר של איכות ושירות, מתוך הבנה שכשהכל מתפקד היטב, גם הנכס וגם האנשים בו מרוצים.<br />
+לחברה ניסיון עשיר ורב שנים בניהול ותפעול מבני משרדים ומספקת פתרונות תחזוקה, אבטחה, סביבה ותברואה לפרויקטים רבים ברחבי הארץ.<br />
+כמו כן, חברת רונימור מנהלת נכסים שונים בניהול משותף עם חברת ״אמות״<br />
+בין לקוחותינו: טבע, קודאק ישראל, נתיבי ישראל, אל על, מיי הריטאג&#039;, הבנק הבינלאומי הראשון, AppsFlyer, משרד עו&quot;ד י. גורניצקי, Apple, דלק מוטורס ועוד רבים אחרים.  <br />
+</p>
+
+																					<a href="/ronimor-preview/#contact-us" class="btn js-scroll-to" target="_self">צור קשר</a>
+																			</div><!-- /.tab__content -->
+								</div><!-- /.tab__inner -->
+													</div><!-- /.tab -->
+											<div class="tab" id="about-01">
+															<div class="team-members">
+									<ul>
+																					<li>
+												<div class="team-member">
+													<div class="team-member__image">
+														<span class="image-fit js-image-fit">
+															<img width="191" height="191" src="/ronimor-preview/wp-content/uploads/2021/04/otniel-191x191.png" class="attachment-member_img size-member_img" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/04/otniel-191x191.png 191w, /ronimor-preview/wp-content/uploads/2021/04/otniel-300x300.png 300w, /ronimor-preview/wp-content/uploads/2021/04/otniel-150x150.png 150w, /ronimor-preview/wp-content/uploads/2021/04/otniel-164x164.png 164w, /ronimor-preview/wp-content/uploads/2021/04/otniel-328x328.png 328w, /ronimor-preview/wp-content/uploads/2021/04/otniel-100x100.png 100w, /ronimor-preview/wp-content/uploads/2021/04/otniel-200x200.png 200w, /ronimor-preview/wp-content/uploads/2021/04/otniel-324x324.png 324w, /ronimor-preview/wp-content/uploads/2021/04/otniel.png 380w" sizes="(max-width: 191px) 100vw, 191px" />														</span>
+													</div><!-- /.team-member__image -->
+
+																									</div><!-- /.team-member -->
+											</li>
+																					<li>
+												<div class="team-member">
+													<div class="team-member__image">
+														<span class="image-fit js-image-fit">
+															<img width="191" height="191" src="/ronimor-preview/wp-content/uploads/2021/04/yaron-191x191.png" class="attachment-member_img size-member_img" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/04/yaron-191x191.png 191w, /ronimor-preview/wp-content/uploads/2021/04/yaron-300x300.png 300w, /ronimor-preview/wp-content/uploads/2021/04/yaron-150x150.png 150w, /ronimor-preview/wp-content/uploads/2021/04/yaron-164x164.png 164w, /ronimor-preview/wp-content/uploads/2021/04/yaron-328x328.png 328w, /ronimor-preview/wp-content/uploads/2021/04/yaron-100x100.png 100w, /ronimor-preview/wp-content/uploads/2021/04/yaron-200x200.png 200w, /ronimor-preview/wp-content/uploads/2021/04/yaron-324x324.png 324w, /ronimor-preview/wp-content/uploads/2021/04/yaron.png 380w" sizes="(max-width: 191px) 100vw, 191px" />														</span>
+													</div><!-- /.team-member__image -->
+
+																									</div><!-- /.team-member -->
+											</li>
+																					<li>
+												<div class="team-member">
+													<div class="team-member__image">
+														<span class="image-fit js-image-fit">
+															<img width="191" height="191" src="/ronimor-preview/wp-content/uploads/2021/04/mor-191x191.png" class="attachment-member_img size-member_img" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/04/mor-191x191.png 191w, /ronimor-preview/wp-content/uploads/2021/04/mor-300x300.png 300w, /ronimor-preview/wp-content/uploads/2021/04/mor-150x150.png 150w, /ronimor-preview/wp-content/uploads/2021/04/mor-164x164.png 164w, /ronimor-preview/wp-content/uploads/2021/04/mor-328x328.png 328w, /ronimor-preview/wp-content/uploads/2021/04/mor-100x100.png 100w, /ronimor-preview/wp-content/uploads/2021/04/mor-200x200.png 200w, /ronimor-preview/wp-content/uploads/2021/04/mor-324x324.png 324w, /ronimor-preview/wp-content/uploads/2021/04/mor.png 380w" sizes="(max-width: 191px) 100vw, 191px" />														</span>
+													</div><!-- /.team-member__image -->
+
+																									</div><!-- /.team-member -->
+											</li>
+																					<li>
+												<div class="team-member">
+													<div class="team-member__image">
+														<span class="image-fit js-image-fit">
+															<img width="191" height="191" src="/ronimor-preview/wp-content/uploads/2021/04/michal-191x191.png" class="attachment-member_img size-member_img" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/04/michal-191x191.png 191w, /ronimor-preview/wp-content/uploads/2021/04/michal-300x300.png 300w, /ronimor-preview/wp-content/uploads/2021/04/michal-150x150.png 150w, /ronimor-preview/wp-content/uploads/2021/04/michal-164x164.png 164w, /ronimor-preview/wp-content/uploads/2021/04/michal-328x328.png 328w, /ronimor-preview/wp-content/uploads/2021/04/michal-100x100.png 100w, /ronimor-preview/wp-content/uploads/2021/04/michal-200x200.png 200w, /ronimor-preview/wp-content/uploads/2021/04/michal-324x324.png 324w, /ronimor-preview/wp-content/uploads/2021/04/michal.png 380w" sizes="(max-width: 191px) 100vw, 191px" />														</span>
+													</div><!-- /.team-member__image -->
+
+																									</div><!-- /.team-member -->
+											</li>
+																					<li>
+												<div class="team-member">
+													<div class="team-member__image">
+														<span class="image-fit js-image-fit">
+															<img width="191" height="191" src="/ronimor-preview/wp-content/uploads/2021/04/asaf-191x191.png" class="attachment-member_img size-member_img" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/04/asaf-191x191.png 191w, /ronimor-preview/wp-content/uploads/2021/04/asaf-300x300.png 300w, /ronimor-preview/wp-content/uploads/2021/04/asaf-150x150.png 150w, /ronimor-preview/wp-content/uploads/2021/04/asaf-164x164.png 164w, /ronimor-preview/wp-content/uploads/2021/04/asaf-328x328.png 328w, /ronimor-preview/wp-content/uploads/2021/04/asaf-100x100.png 100w, /ronimor-preview/wp-content/uploads/2021/04/asaf-200x200.png 200w, /ronimor-preview/wp-content/uploads/2021/04/asaf-324x324.png 324w, /ronimor-preview/wp-content/uploads/2021/04/asaf.png 380w" sizes="(max-width: 191px) 100vw, 191px" />														</span>
+													</div><!-- /.team-member__image -->
+
+																									</div><!-- /.team-member -->
+											</li>
+																					<li>
+												<div class="team-member">
+													<div class="team-member__image">
+														<span class="image-fit js-image-fit">
+															<img width="191" height="191" src="/ronimor-preview/wp-content/uploads/2021/04/danny-191x191.png" class="attachment-member_img size-member_img" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/04/danny-191x191.png 191w, /ronimor-preview/wp-content/uploads/2021/04/danny-300x300.png 300w, /ronimor-preview/wp-content/uploads/2021/04/danny-150x150.png 150w, /ronimor-preview/wp-content/uploads/2021/04/danny-164x164.png 164w, /ronimor-preview/wp-content/uploads/2021/04/danny-328x328.png 328w, /ronimor-preview/wp-content/uploads/2021/04/danny-100x100.png 100w, /ronimor-preview/wp-content/uploads/2021/04/danny-200x200.png 200w, /ronimor-preview/wp-content/uploads/2021/04/danny-324x324.png 324w, /ronimor-preview/wp-content/uploads/2021/04/danny.png 380w" sizes="(max-width: 191px) 100vw, 191px" />														</span>
+													</div><!-- /.team-member__image -->
+
+																									</div><!-- /.team-member -->
+											</li>
+																			</ul>
+								</div><!-- /.team-members -->
+													</div><!-- /.tab -->
+					
+											<div class="tabs__actions">
+							<button class="arrow-right js-arrow-next" type="button"></button>
+
+							<button class="arrow-left js-arrow-prev" type="button"></button>
+						</div><!-- /.tabs__actions -->
+									</div><!-- /.tabs__body -->
+			</div><!-- /.tabs tabs-/-company-details -->
+		</div><!-- /.section__inner -->
+	</div><!-- /.shell -->
+</section><!-- /.section-company-details -->
+<section class="section-customers" data-scroll-id="customers">
+	<div class="shell">
+		<div class="section__inner">
+							<header class="section__head">
+					<h2>לקוחותינו</h2>
+				</header><!-- /.section__head -->
+			
+			
+			<div class="section__body">
+				<div class="slider slider--customers js-slider-customers" data-duration="4000">
+					<div class="slider__clip swiper-container">
+						<div class="slider__slides swiper-wrapper">
+															<div class="slider__slide swiper-slide">
+									<div class="list-customers">
+										<ul>
+																							<li>
+													
+													<span>
+														<img width="162" height="164" src="/ronimor-preview/wp-content/uploads/2021/03/logo_gindi-162x164.png" class="attachment-logo_small size-logo_small" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/03/logo_gindi-162x164.png 162w, /ronimor-preview/wp-content/uploads/2021/03/logo_gindi-100x101.png 100w, /ronimor-preview/wp-content/uploads/2021/03/logo_gindi-200x202.png 200w, /ronimor-preview/wp-content/uploads/2021/03/logo_gindi.png 206w" sizes="(max-width: 162px) 100vw, 162px" />													</span>
+												</li>
+																							<li>
+													
+													<span>
+														<img width="164" height="164" src="/ronimor-preview/wp-content/uploads/2021/03/logo_apple-164x164.png" class="attachment-logo_small size-logo_small" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/03/logo_apple-164x164.png 164w, /ronimor-preview/wp-content/uploads/2021/03/logo_apple-150x150.png 150w, /ronimor-preview/wp-content/uploads/2021/03/logo_apple-191x191.png 191w, /ronimor-preview/wp-content/uploads/2021/03/logo_apple-100x100.png 100w, /ronimor-preview/wp-content/uploads/2021/03/logo_apple-200x200.png 200w, /ronimor-preview/wp-content/uploads/2021/03/logo_apple.png 206w" sizes="(max-width: 164px) 100vw, 164px" />													</span>
+												</li>
+																							<li>
+																											<a href="https://www.toyota.com/" target="_blank"></a>
+													
+													<span>
+														<img width="162" height="164" src="/ronimor-preview/wp-content/uploads/2021/03/logo_appsflyer-162x164.png" class="attachment-logo_small size-logo_small" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/03/logo_appsflyer-162x164.png 162w, /ronimor-preview/wp-content/uploads/2021/03/logo_appsflyer-100x101.png 100w, /ronimor-preview/wp-content/uploads/2021/03/logo_appsflyer-200x202.png 200w, /ronimor-preview/wp-content/uploads/2021/03/logo_appsflyer.png 206w" sizes="(max-width: 162px) 100vw, 162px" />													</span>
+												</li>
+																							<li>
+													
+													<span>
+														<img width="162" height="164" src="/ronimor-preview/wp-content/uploads/2021/03/logo_bugaboo-162x164.png" class="attachment-logo_small size-logo_small" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/03/logo_bugaboo-162x164.png 162w, /ronimor-preview/wp-content/uploads/2021/03/logo_bugaboo-100x101.png 100w, /ronimor-preview/wp-content/uploads/2021/03/logo_bugaboo-200x202.png 200w, /ronimor-preview/wp-content/uploads/2021/03/logo_bugaboo.png 206w" sizes="(max-width: 162px) 100vw, 162px" />													</span>
+												</li>
+																					</ul>
+									</div><!-- /.list-customers -->
+								</div><!-- /.slider__slide swiper-slide -->
+															<div class="slider__slide swiper-slide">
+									<div class="list-customers">
+										<ul>
+																							<li>
+													
+													<span>
+														<img width="164" height="164" src="/ronimor-preview/wp-content/uploads/2021/03/logo_delek_motors-164x164.png" class="attachment-logo_small size-logo_small" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/03/logo_delek_motors-164x164.png 164w, /ronimor-preview/wp-content/uploads/2021/03/logo_delek_motors-150x150.png 150w, /ronimor-preview/wp-content/uploads/2021/03/logo_delek_motors-191x191.png 191w, /ronimor-preview/wp-content/uploads/2021/03/logo_delek_motors-100x100.png 100w, /ronimor-preview/wp-content/uploads/2021/03/logo_delek_motors-200x200.png 200w, /ronimor-preview/wp-content/uploads/2021/03/logo_delek_motors.png 206w" sizes="(max-width: 164px) 100vw, 164px" />													</span>
+												</li>
+																							<li>
+													
+													<span>
+														<img width="162" height="164" src="/ronimor-preview/wp-content/uploads/2021/03/logo_edwards-162x164.png" class="attachment-logo_small size-logo_small" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/03/logo_edwards-162x164.png 162w, /ronimor-preview/wp-content/uploads/2021/03/logo_edwards-100x101.png 100w, /ronimor-preview/wp-content/uploads/2021/03/logo_edwards-200x202.png 200w, /ronimor-preview/wp-content/uploads/2021/03/logo_edwards.png 206w" sizes="(max-width: 162px) 100vw, 162px" />													</span>
+												</li>
+																							<li>
+													
+													<span>
+														<img width="164" height="164" src="/ronimor-preview/wp-content/uploads/2021/03/logo_elal-164x164.png" class="attachment-logo_small size-logo_small" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/03/logo_elal-164x164.png 164w, /ronimor-preview/wp-content/uploads/2021/03/logo_elal-150x150.png 150w, /ronimor-preview/wp-content/uploads/2021/03/logo_elal-191x191.png 191w, /ronimor-preview/wp-content/uploads/2021/03/logo_elal-100x100.png 100w, /ronimor-preview/wp-content/uploads/2021/03/logo_elal-200x200.png 200w, /ronimor-preview/wp-content/uploads/2021/03/logo_elal.png 206w" sizes="(max-width: 164px) 100vw, 164px" />													</span>
+												</li>
+																							<li>
+													
+													<span>
+														<img width="162" height="164" src="/ronimor-preview/wp-content/uploads/2021/03/logo_ad_120-162x164.png" class="attachment-logo_small size-logo_small" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/03/logo_ad_120-162x164.png 162w, /ronimor-preview/wp-content/uploads/2021/03/logo_ad_120-100x101.png 100w, /ronimor-preview/wp-content/uploads/2021/03/logo_ad_120-200x202.png 200w, /ronimor-preview/wp-content/uploads/2021/03/logo_ad_120.png 206w" sizes="(max-width: 162px) 100vw, 162px" />													</span>
+												</li>
+																					</ul>
+									</div><!-- /.list-customers -->
+								</div><!-- /.slider__slide swiper-slide -->
+															<div class="slider__slide swiper-slide">
+									<div class="list-customers">
+										<ul>
+																							<li>
+													
+													<span>
+														<img width="162" height="164" src="/ronimor-preview/wp-content/uploads/2021/03/logo_jems-162x164.png" class="attachment-logo_small size-logo_small" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/03/logo_jems-162x164.png 162w, /ronimor-preview/wp-content/uploads/2021/03/logo_jems-100x101.png 100w, /ronimor-preview/wp-content/uploads/2021/03/logo_jems-200x202.png 200w, /ronimor-preview/wp-content/uploads/2021/03/logo_jems.png 206w" sizes="(max-width: 162px) 100vw, 162px" />													</span>
+												</li>
+																							<li>
+													
+													<span>
+														<img width="164" height="164" src="/ronimor-preview/wp-content/uploads/2021/03/logo_jobmaster-164x164.png" class="attachment-logo_small size-logo_small" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/03/logo_jobmaster-164x164.png 164w, /ronimor-preview/wp-content/uploads/2021/03/logo_jobmaster-150x150.png 150w, /ronimor-preview/wp-content/uploads/2021/03/logo_jobmaster-191x191.png 191w, /ronimor-preview/wp-content/uploads/2021/03/logo_jobmaster-100x100.png 100w, /ronimor-preview/wp-content/uploads/2021/03/logo_jobmaster-200x200.png 200w, /ronimor-preview/wp-content/uploads/2021/03/logo_jobmaster.png 206w" sizes="(max-width: 164px) 100vw, 164px" />													</span>
+												</li>
+																							<li>
+													
+													<span>
+														<img width="164" height="164" src="/ronimor-preview/wp-content/uploads/2021/03/logo_kodak-164x164.png" class="attachment-logo_small size-logo_small" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/03/logo_kodak-164x164.png 164w, /ronimor-preview/wp-content/uploads/2021/03/logo_kodak-150x150.png 150w, /ronimor-preview/wp-content/uploads/2021/03/logo_kodak-191x191.png 191w, /ronimor-preview/wp-content/uploads/2021/03/logo_kodak-100x100.png 100w, /ronimor-preview/wp-content/uploads/2021/03/logo_kodak-200x200.png 200w, /ronimor-preview/wp-content/uploads/2021/03/logo_kodak.png 206w" sizes="(max-width: 164px) 100vw, 164px" />													</span>
+												</li>
+																							<li>
+													
+													<span>
+														<img width="162" height="164" src="/ronimor-preview/wp-content/uploads/2021/03/logo_leumit-162x164.png" class="attachment-logo_small size-logo_small" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/03/logo_leumit-162x164.png 162w, /ronimor-preview/wp-content/uploads/2021/03/logo_leumit-100x101.png 100w, /ronimor-preview/wp-content/uploads/2021/03/logo_leumit-200x202.png 200w, /ronimor-preview/wp-content/uploads/2021/03/logo_leumit.png 206w" sizes="(max-width: 162px) 100vw, 162px" />													</span>
+												</li>
+																					</ul>
+									</div><!-- /.list-customers -->
+								</div><!-- /.slider__slide swiper-slide -->
+															<div class="slider__slide swiper-slide">
+									<div class="list-customers">
+										<ul>
+																							<li>
+													
+													<span>
+														<img width="164" height="164" src="/ronimor-preview/wp-content/uploads/2021/03/logo_midnspace-164x164.png" class="attachment-logo_small size-logo_small" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/03/logo_midnspace-164x164.png 164w, /ronimor-preview/wp-content/uploads/2021/03/logo_midnspace-150x150.png 150w, /ronimor-preview/wp-content/uploads/2021/03/logo_midnspace-191x191.png 191w, /ronimor-preview/wp-content/uploads/2021/03/logo_midnspace-100x100.png 100w, /ronimor-preview/wp-content/uploads/2021/03/logo_midnspace-200x200.png 200w, /ronimor-preview/wp-content/uploads/2021/03/logo_midnspace.png 206w" sizes="(max-width: 164px) 100vw, 164px" />													</span>
+												</li>
+																							<li>
+													
+													<span>
+														<img width="162" height="164" src="/ronimor-preview/wp-content/uploads/2021/03/logo_migdal-162x164.png" class="attachment-logo_small size-logo_small" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/03/logo_migdal-162x164.png 162w, /ronimor-preview/wp-content/uploads/2021/03/logo_migdal-100x101.png 100w, /ronimor-preview/wp-content/uploads/2021/03/logo_migdal-200x202.png 200w, /ronimor-preview/wp-content/uploads/2021/03/logo_migdal.png 206w" sizes="(max-width: 162px) 100vw, 162px" />													</span>
+												</li>
+																							<li>
+													
+													<span>
+														<img width="164" height="164" src="/ronimor-preview/wp-content/uploads/2021/03/logo_mizrahi-164x164.png" class="attachment-logo_small size-logo_small" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/03/logo_mizrahi-164x164.png 164w, /ronimor-preview/wp-content/uploads/2021/03/logo_mizrahi-150x150.png 150w, /ronimor-preview/wp-content/uploads/2021/03/logo_mizrahi-191x191.png 191w, /ronimor-preview/wp-content/uploads/2021/03/logo_mizrahi-100x100.png 100w, /ronimor-preview/wp-content/uploads/2021/03/logo_mizrahi-200x200.png 200w, /ronimor-preview/wp-content/uploads/2021/03/logo_mizrahi.png 206w" sizes="(max-width: 164px) 100vw, 164px" />													</span>
+												</li>
+																							<li>
+													
+													<span>
+														<img width="164" height="164" src="/ronimor-preview/wp-content/uploads/2021/03/logo_myheritage-164x164.png" class="attachment-logo_small size-logo_small" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/03/logo_myheritage-164x164.png 164w, /ronimor-preview/wp-content/uploads/2021/03/logo_myheritage-150x150.png 150w, /ronimor-preview/wp-content/uploads/2021/03/logo_myheritage-191x191.png 191w, /ronimor-preview/wp-content/uploads/2021/03/logo_myheritage-100x100.png 100w, /ronimor-preview/wp-content/uploads/2021/03/logo_myheritage-200x200.png 200w, /ronimor-preview/wp-content/uploads/2021/03/logo_myheritage.png 206w" sizes="(max-width: 164px) 100vw, 164px" />													</span>
+												</li>
+																					</ul>
+									</div><!-- /.list-customers -->
+								</div><!-- /.slider__slide swiper-slide -->
+															<div class="slider__slide swiper-slide">
+									<div class="list-customers">
+										<ul>
+																							<li>
+													
+													<span>
+														<img width="162" height="164" src="/ronimor-preview/wp-content/uploads/2021/03/logo_netivei_israel-162x164.png" class="attachment-logo_small size-logo_small" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/03/logo_netivei_israel-162x164.png 162w, /ronimor-preview/wp-content/uploads/2021/03/logo_netivei_israel-100x101.png 100w, /ronimor-preview/wp-content/uploads/2021/03/logo_netivei_israel-200x202.png 200w, /ronimor-preview/wp-content/uploads/2021/03/logo_netivei_israel.png 206w" sizes="(max-width: 162px) 100vw, 162px" />													</span>
+												</li>
+																							<li>
+													
+													<span>
+														<img width="162" height="164" src="/ronimor-preview/wp-content/uploads/2021/03/logo_prashkovsky-162x164.png" class="attachment-logo_small size-logo_small" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/03/logo_prashkovsky-162x164.png 162w, /ronimor-preview/wp-content/uploads/2021/03/logo_prashkovsky-100x101.png 100w, /ronimor-preview/wp-content/uploads/2021/03/logo_prashkovsky-200x202.png 200w, /ronimor-preview/wp-content/uploads/2021/03/logo_prashkovsky.png 206w" sizes="(max-width: 162px) 100vw, 162px" />													</span>
+												</li>
+																							<li>
+													
+													<span>
+														<img width="164" height="164" src="/ronimor-preview/wp-content/uploads/2021/03/logo_regus-164x164.png" class="attachment-logo_small size-logo_small" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/03/logo_regus-164x164.png 164w, /ronimor-preview/wp-content/uploads/2021/03/logo_regus-150x150.png 150w, /ronimor-preview/wp-content/uploads/2021/03/logo_regus-191x191.png 191w, /ronimor-preview/wp-content/uploads/2021/03/logo_regus-100x100.png 100w, /ronimor-preview/wp-content/uploads/2021/03/logo_regus-200x200.png 200w, /ronimor-preview/wp-content/uploads/2021/03/logo_regus.png 206w" sizes="(max-width: 164px) 100vw, 164px" />													</span>
+												</li>
+																							<li>
+													
+													<span>
+														<img width="162" height="164" src="/ronimor-preview/wp-content/uploads/2021/03/logo_sgs-162x164.png" class="attachment-logo_small size-logo_small" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/03/logo_sgs-162x164.png 162w, /ronimor-preview/wp-content/uploads/2021/03/logo_sgs-100x101.png 100w, /ronimor-preview/wp-content/uploads/2021/03/logo_sgs-200x202.png 200w, /ronimor-preview/wp-content/uploads/2021/03/logo_sgs.png 206w" sizes="(max-width: 162px) 100vw, 162px" />													</span>
+												</li>
+																					</ul>
+									</div><!-- /.list-customers -->
+								</div><!-- /.slider__slide swiper-slide -->
+															<div class="slider__slide swiper-slide">
+									<div class="list-customers">
+										<ul>
+																							<li>
+													
+													<span>
+														<img width="164" height="164" src="/ronimor-preview/wp-content/uploads/2021/03/logo_midnspace-164x164.png" class="attachment-logo_small size-logo_small" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/03/logo_midnspace-164x164.png 164w, /ronimor-preview/wp-content/uploads/2021/03/logo_midnspace-150x150.png 150w, /ronimor-preview/wp-content/uploads/2021/03/logo_midnspace-191x191.png 191w, /ronimor-preview/wp-content/uploads/2021/03/logo_midnspace-100x100.png 100w, /ronimor-preview/wp-content/uploads/2021/03/logo_midnspace-200x200.png 200w, /ronimor-preview/wp-content/uploads/2021/03/logo_midnspace.png 206w" sizes="(max-width: 164px) 100vw, 164px" />													</span>
+												</li>
+																							<li>
+													
+													<span>
+														<img width="164" height="164" src="/ronimor-preview/wp-content/uploads/2021/03/logo_teva-164x164.png" class="attachment-logo_small size-logo_small" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/03/logo_teva-164x164.png 164w, /ronimor-preview/wp-content/uploads/2021/03/logo_teva-150x150.png 150w, /ronimor-preview/wp-content/uploads/2021/03/logo_teva-191x191.png 191w, /ronimor-preview/wp-content/uploads/2021/03/logo_teva-100x100.png 100w, /ronimor-preview/wp-content/uploads/2021/03/logo_teva-200x200.png 200w, /ronimor-preview/wp-content/uploads/2021/03/logo_teva.png 206w" sizes="(max-width: 164px) 100vw, 164px" />													</span>
+												</li>
+																							<li>
+													
+													<span>
+														<img width="164" height="164" src="/ronimor-preview/wp-content/uploads/2021/03/logo_tivtaam-164x164.png" class="attachment-logo_small size-logo_small" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/03/logo_tivtaam-164x164.png 164w, /ronimor-preview/wp-content/uploads/2021/03/logo_tivtaam-150x150.png 150w, /ronimor-preview/wp-content/uploads/2021/03/logo_tivtaam-191x191.png 191w, /ronimor-preview/wp-content/uploads/2021/03/logo_tivtaam-100x100.png 100w, /ronimor-preview/wp-content/uploads/2021/03/logo_tivtaam-200x200.png 200w, /ronimor-preview/wp-content/uploads/2021/03/logo_tivtaam.png 206w" sizes="(max-width: 164px) 100vw, 164px" />													</span>
+												</li>
+																							<li>
+													
+													<span>
+														<img width="164" height="164" src="/ronimor-preview/wp-content/uploads/2021/03/logo_vitania-164x164.png" class="attachment-logo_small size-logo_small" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/03/logo_vitania-164x164.png 164w, /ronimor-preview/wp-content/uploads/2021/03/logo_vitania-150x150.png 150w, /ronimor-preview/wp-content/uploads/2021/03/logo_vitania-191x191.png 191w, /ronimor-preview/wp-content/uploads/2021/03/logo_vitania-100x100.png 100w, /ronimor-preview/wp-content/uploads/2021/03/logo_vitania-200x200.png 200w, /ronimor-preview/wp-content/uploads/2021/03/logo_vitania.png 206w" sizes="(max-width: 164px) 100vw, 164px" />													</span>
+												</li>
+																					</ul>
+									</div><!-- /.list-customers -->
+								</div><!-- /.slider__slide swiper-slide -->
+													</div><!-- /.slider__slides swiper-wrapper -->
+					</div><!-- /.slider__clip swiper-container -->
+
+											<div class="slider__actions">
+							<button class="swiper-button-prev arrow-left" type="button"></button>
+
+							<button class="swiper-button-next arrow-right" type="button"></button>
+						</div><!-- /.slider__actions -->
+									</div><!-- /.slider slider-/-customers -->
+			</div><!-- /.section__body -->
+		</div><!-- /.section__inner -->
+	</div><!-- /.shell -->
+</section><!-- /.section-customers -->
+<section class="section-services" data-scroll-id="services">
+			<header class="section__head">
+			<div class="shell">
+				<h2>השירותים שלנו</h2>
+			</div><!-- /.shell -->
+		</header><!-- /.section__head -->
+	
+	<div class="section__body">
+		<div class="tabs tabs--services js-tabs">
+			<div class="tabs__head">
+				<div class="shell">
+					<nav class="tabs__nav">
+						<ul>
+															<li class="is-current" style="color: #3B6F62;">
+									<a href="#service-20">
+										<span>
+											<img src="/ronimor-preview/wp-content/uploads/2020/11/tabs-icon-4.svg" class="attachment-logo_xsmall size-logo_xsmall" alt="" decoding="async" />										</span>
+
+										<p>אבטחה</p>
+									</a>
+
+									<strong style="background-color: #3B6F62;"></strong>
+								</li>
+															<li style="color: #D2B498;">
+									<a href="#service-21">
+										<span>
+											<img src="/ronimor-preview/wp-content/uploads/2020/11/tabs-icon-3.svg" class="attachment-logo_xsmall size-logo_xsmall" alt="" decoding="async" />										</span>
+
+										<p>תחזוקה</p>
+									</a>
+
+									<strong style="background-color: #D2B498;"></strong>
+								</li>
+															<li style="color: #FDE18D;">
+									<a href="#service-22">
+										<span>
+											<img src="/ronimor-preview/wp-content/uploads/2020/11/tabs-icon-2.svg" class="attachment-logo_xsmall size-logo_xsmall" alt="" decoding="async" />										</span>
+
+										<p>תברואה</p>
+									</a>
+
+									<strong style="background-color: #FDE18D;"></strong>
+								</li>
+															<li style="color: #35C786;">
+									<a href="#service-23">
+										<span>
+											<img src="/ronimor-preview/wp-content/uploads/2020/11/tabs-icon-1.svg" class="attachment-logo_xsmall size-logo_xsmall" alt="" decoding="async" />										</span>
+
+										<p>סביבה</p>
+									</a>
+
+									<strong style="background-color: #35C786;"></strong>
+								</li>
+													</ul>
+					</nav><!-- /.tabs__nav -->
+				</div><!-- /.shell -->
+			</div><!-- /.tabs__head -->
+
+			<div class="tabs__body">
+				
+					<div class="tab is-current" id="service-20" style="background-color: #3B6F62;">
+						<div class="shell">
+							<div class="tab__inner">
+								<div class="tab__image">
+									<span class="image-fit js-image-fit">
+										<img width="324" height="324" src="/ronimor-preview/wp-content/uploads/2021/04/shutterstock_717789562.png" class="attachment-service_img size-service_img" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/04/shutterstock_717789562.png 325w, /ronimor-preview/wp-content/uploads/2021/04/shutterstock_717789562-300x300.png 300w, /ronimor-preview/wp-content/uploads/2021/04/shutterstock_717789562-150x150.png 150w, /ronimor-preview/wp-content/uploads/2021/04/shutterstock_717789562-191x191.png 191w, /ronimor-preview/wp-content/uploads/2021/04/shutterstock_717789562-164x164.png 164w, /ronimor-preview/wp-content/uploads/2021/04/shutterstock_717789562-100x100.png 100w, /ronimor-preview/wp-content/uploads/2021/04/shutterstock_717789562-200x200.png 200w" sizes="(max-width: 324px) 100vw, 324px" />									</span>
+								</div><!-- /.tab__image -->
+
+								<div class="tab__content">
+																			<h2>ביטחון שוטף בשביל השקט הנפשי שלך</h2>
+									
+									<p>חברת רונימור מספקת שירותי אבטחה ובטיחות באמצעות חברות האבטחה המובילות במשק. כלל אנשי האבטחה נבחרים בקפידה, מתוך הבנה ורצון להעניק שקט נפשי לכלל הדיירים ונכונות לשירות מזמין, איכותי בכניסה וביציאה מנכסינו. </p>
+
+																			<a href="/ronimor-preview/#contact-us" class="btn js-scroll-to btn--white" target="_self">צור קשר</a>
+																	</div><!-- /.tab__content -->
+							</div><!-- /.tab__inner -->
+						</div><!-- /.shell -->
+					</div><!-- /.tab -->
+				
+					<div class="tab tab--green" id="service-21" style="background-color: #D2B498;">
+						<div class="shell">
+							<div class="tab__inner">
+								<div class="tab__image">
+									<span class="image-fit js-image-fit">
+										<img width="324" height="324" src="/ronimor-preview/wp-content/uploads/2021/04/shutterstock_134247194.png" class="attachment-service_img size-service_img" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/04/shutterstock_134247194.png 325w, /ronimor-preview/wp-content/uploads/2021/04/shutterstock_134247194-300x300.png 300w, /ronimor-preview/wp-content/uploads/2021/04/shutterstock_134247194-150x150.png 150w, /ronimor-preview/wp-content/uploads/2021/04/shutterstock_134247194-191x191.png 191w, /ronimor-preview/wp-content/uploads/2021/04/shutterstock_134247194-164x164.png 164w, /ronimor-preview/wp-content/uploads/2021/04/shutterstock_134247194-100x100.png 100w, /ronimor-preview/wp-content/uploads/2021/04/shutterstock_134247194-200x200.png 200w" sizes="(max-width: 324px) 100vw, 324px" />									</span>
+								</div><!-- /.tab__image -->
+
+								<div class="tab__content">
+																			<h2>שומרים עליך ועל ערך הבניין שלך</h2>
+									
+									<p>חברתנו מתייחסת לכל אחד מהנכסים המנוהלים על ידינו כאילו היה ביתנו שלנו. חברתנו בונה לכל נכס תכנית אחזקה שנתית ייעודית המבוססת על אחזקה מונעת ואחזקת שבר.<br />
+צוות הניהול והאחזקה פועל במקצועיות, מדי יום, לשמר ולפתח את מערכות הבניין. לחברה קיימת תכנה ייעודית לניהול ותפעול כלל הדרישות המקצועיות בתחום התחזוקה, התיעוד בו והימצאות האישורים הנדרשים. </p>
+
+																			<a href="/ronimor-preview/#contact-us" class="btn js-scroll-to" target="_self">צור קשר</a>
+																	</div><!-- /.tab__content -->
+							</div><!-- /.tab__inner -->
+						</div><!-- /.shell -->
+					</div><!-- /.tab -->
+				
+					<div class="tab tab--green" id="service-22" style="background-color: #FDE18D;">
+						<div class="shell">
+							<div class="tab__inner">
+								<div class="tab__image">
+									<span class="image-fit js-image-fit">
+										<img width="324" height="324" src="/ronimor-preview/wp-content/uploads/2021/04/shutterstock_1230317383.png" class="attachment-service_img size-service_img" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/04/shutterstock_1230317383.png 325w, /ronimor-preview/wp-content/uploads/2021/04/shutterstock_1230317383-300x300.png 300w, /ronimor-preview/wp-content/uploads/2021/04/shutterstock_1230317383-150x150.png 150w, /ronimor-preview/wp-content/uploads/2021/04/shutterstock_1230317383-191x191.png 191w, /ronimor-preview/wp-content/uploads/2021/04/shutterstock_1230317383-164x164.png 164w, /ronimor-preview/wp-content/uploads/2021/04/shutterstock_1230317383-100x100.png 100w, /ronimor-preview/wp-content/uploads/2021/04/shutterstock_1230317383-200x200.png 200w" sizes="(max-width: 324px) 100vw, 324px" />									</span>
+								</div><!-- /.tab__image -->
+
+								<div class="tab__content">
+																			<h2>נקיון ואיכות חיים בלי מאמץ</h2>
+									
+									<p>סביבה נקייה ונעימה, הינה חלק יסודי ביעדי החברה. חברתנו מספקת שירותי ניקיון באמצעות חברות ניקיון איכותיות ומקצועיות, כאשר עובדי הניקיון הינם חלק אינטגרלי מצוות הניהול והאחזקה בנכס.<br />
+שימור העובדים וטיפוחם מלווה את חברתנו בכל הפעילות היומיומית. כלל הפעילות מתבצעת תוך בקרה צמודה בדיווחים שוטפים על איכות הביצוע והמועדים. בסקרי שביעות רצון של לקוחות, חברתנו נהנית משביעות רצון הלקוחות בכלל הפרויקטים. </p>
+
+																			<a href="/ronimor-preview/#contact-us" class="btn js-scroll-to" target="_self">צור קשר</a>
+																	</div><!-- /.tab__content -->
+							</div><!-- /.tab__inner -->
+						</div><!-- /.shell -->
+					</div><!-- /.tab -->
+				
+					<div class="tab" id="service-23" style="background-color: #35C786;">
+						<div class="shell">
+							<div class="tab__inner">
+								<div class="tab__image">
+									<span class="image-fit js-image-fit">
+										<img width="324" height="324" src="/ronimor-preview/wp-content/uploads/2021/04/shutterstock_1162697149.png" class="attachment-service_img size-service_img" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/04/shutterstock_1162697149.png 325w, /ronimor-preview/wp-content/uploads/2021/04/shutterstock_1162697149-300x300.png 300w, /ronimor-preview/wp-content/uploads/2021/04/shutterstock_1162697149-150x150.png 150w, /ronimor-preview/wp-content/uploads/2021/04/shutterstock_1162697149-191x191.png 191w, /ronimor-preview/wp-content/uploads/2021/04/shutterstock_1162697149-164x164.png 164w, /ronimor-preview/wp-content/uploads/2021/04/shutterstock_1162697149-100x100.png 100w, /ronimor-preview/wp-content/uploads/2021/04/shutterstock_1162697149-200x200.png 200w" sizes="(max-width: 324px) 100vw, 324px" />									</span>
+								</div><!-- /.tab__image -->
+
+								<div class="tab__content">
+																			<h2>טיפול וטיפוח במרחבים הציבוריים<br />
+ותפיסה סביבתית הוליסטית<br />
+</h2>
+									
+									<p>ברונימור אנו מאמינים בתפיסה סביבתית הוליסטית. הנוף, הצמחיה, המים הזורמים, הספסל והצל לא פחות חשובים מהכסא הארגונומי המשוכלל שלך ותורמים לאיכות חיים ושגרה נעימה. חברתנו פועלת מדי יום לתחזק ולשפר את נראות חצרות הנכסים. </p>
+
+																			<a href="/ronimor-preview/#contact-us" class="btn js-scroll-to btn--white" target="_self">צור קשר</a>
+																	</div><!-- /.tab__content -->
+							</div><!-- /.tab__inner -->
+						</div><!-- /.shell -->
+					</div><!-- /.tab -->
+							</div><!-- /.tabs__body -->
+		</div><!-- /.tabs tabs-/-services -->
+	</div><!-- /.section__body -->
+</section><!-- /.section-services -->
+<section class="section-gallery" data-scroll-id="property">
+	<div class="shell">
+		<div class="section__inner">
+							<header class="section__head">
+					<h2>הנכסים</h2>
+				</header><!-- /.section__head -->
+			
+			<div class="section__body">
+				<div class="slider slider--gallery js-slider-gallery" data-duration="4000">
+					<div class="slider__clip swiper-container">
+						<div class="slider__slides swiper-wrapper">
+															<div class="slider__slide swiper-slide">
+									<span class="image-fit js-image-fit">
+										<img width="486" height="365" src="/ronimor-preview/wp-content/uploads/2021/03/טרמינל-פארק-2-1-486x365.png" class="attachment-slide_img_small size-slide_img_small" alt="טרמינל פארק 2" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/03/טרמינל-פארק-2-1-486x365.png 486w, /ronimor-preview/wp-content/uploads/2021/03/טרמינל-פארק-2-1-300x224.png 300w, /ronimor-preview/wp-content/uploads/2021/03/טרמינל-פארק-2-1-164x122.png 164w, /ronimor-preview/wp-content/uploads/2021/03/טרמינל-פארק-2-1-328x245.png 328w, /ronimor-preview/wp-content/uploads/2021/03/טרמינל-פארק-2-1-100x75.png 100w, /ronimor-preview/wp-content/uploads/2021/03/טרמינל-פארק-2-1-200x149.png 200w, /ronimor-preview/wp-content/uploads/2021/03/טרמינל-פארק-2-1-324x242.png 324w" sizes="(max-width: 486px) 100vw, 486px" />									</span>
+
+									<a href="/ronimor-preview/#contact-us" class="btn btn--green btn--alt" target="_self">
+
+										<strong>טרמינל פארק B</strong> אור יהודה									</a>
+								</div><!-- /.slider__slide swiper-slide -->
+															<div class="slider__slide swiper-slide">
+									<span class="image-fit js-image-fit">
+										<img width="486" height="365" src="/ronimor-preview/wp-content/uploads/2021/03/טרמינל-פארק-1-486x365.png" class="attachment-slide_img_small size-slide_img_small" alt="טרמינל פארק 1" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/03/טרמינל-פארק-1-486x365.png 486w, /ronimor-preview/wp-content/uploads/2021/03/טרמינל-פארק-1-300x224.png 300w, /ronimor-preview/wp-content/uploads/2021/03/טרמינל-פארק-1-164x122.png 164w, /ronimor-preview/wp-content/uploads/2021/03/טרמינל-פארק-1-328x245.png 328w, /ronimor-preview/wp-content/uploads/2021/03/טרמינל-פארק-1-100x75.png 100w, /ronimor-preview/wp-content/uploads/2021/03/טרמינל-פארק-1-200x149.png 200w, /ronimor-preview/wp-content/uploads/2021/03/טרמינל-פארק-1-324x242.png 324w" sizes="(max-width: 486px) 100vw, 486px" />									</span>
+
+									<a href="/ronimor-preview/#contact-us" class="btn btn--green btn--alt" target="_self">
+
+										<strong>טרמינל פארק A</strong> אור יהודה									</a>
+								</div><!-- /.slider__slide swiper-slide -->
+															<div class="slider__slide swiper-slide">
+									<span class="image-fit js-image-fit">
+										<img width="482" height="360" src="/ronimor-preview/wp-content/uploads/2021/03/ויתניה-תל-אביב.png" class="attachment-slide_img_small size-slide_img_small" alt="ויתניה תל אביב" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/03/ויתניה-תל-אביב.png 482w, /ronimor-preview/wp-content/uploads/2021/03/ויתניה-תל-אביב-300x224.png 300w, /ronimor-preview/wp-content/uploads/2021/03/ויתניה-תל-אביב-164x122.png 164w, /ronimor-preview/wp-content/uploads/2021/03/ויתניה-תל-אביב-328x245.png 328w, /ronimor-preview/wp-content/uploads/2021/03/ויתניה-תל-אביב-100x75.png 100w, /ronimor-preview/wp-content/uploads/2021/03/ויתניה-תל-אביב-200x149.png 200w, /ronimor-preview/wp-content/uploads/2021/03/ויתניה-תל-אביב-324x242.png 324w" sizes="(max-width: 482px) 100vw, 482px" />									</span>
+
+									<a href="/ronimor-preview/#contact-us" class="btn btn--green btn--alt" target="_self">
+
+										<strong>ויתניה תל אביב</strong> תל אביב									</a>
+								</div><!-- /.slider__slide swiper-slide -->
+															<div class="slider__slide swiper-slide">
+									<span class="image-fit js-image-fit">
+										<img width="486" height="365" src="/ronimor-preview/wp-content/uploads/2021/03/ויתניה-רמת-החייל-טבע-1-486x365.png" class="attachment-slide_img_small size-slide_img_small" alt="ויתניה רמת החייל (טבע)" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/03/ויתניה-רמת-החייל-טבע-1-486x365.png 486w, /ronimor-preview/wp-content/uploads/2021/03/ויתניה-רמת-החייל-טבע-1-300x224.png 300w, /ronimor-preview/wp-content/uploads/2021/03/ויתניה-רמת-החייל-טבע-1-164x122.png 164w, /ronimor-preview/wp-content/uploads/2021/03/ויתניה-רמת-החייל-טבע-1-328x245.png 328w, /ronimor-preview/wp-content/uploads/2021/03/ויתניה-רמת-החייל-טבע-1-100x75.png 100w, /ronimor-preview/wp-content/uploads/2021/03/ויתניה-רמת-החייל-טבע-1-200x149.png 200w, /ronimor-preview/wp-content/uploads/2021/03/ויתניה-רמת-החייל-טבע-1-324x242.png 324w" sizes="(max-width: 486px) 100vw, 486px" />									</span>
+
+									<a href="/ronimor-preview/#contact-us" class="btn btn--green btn--alt" target="_self">
+
+										<strong>מגדל טבע</strong> רמת החייל, תל אביב									</a>
+								</div><!-- /.slider__slide swiper-slide -->
+															<div class="slider__slide swiper-slide">
+									<span class="image-fit js-image-fit">
+										<img width="486" height="365" src="/ronimor-preview/wp-content/uploads/2021/03/ויתניה-פדקו-1-486x365.png" class="attachment-slide_img_small size-slide_img_small" alt="ויתניה פדקו" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/03/ויתניה-פדקו-1-486x365.png 486w, /ronimor-preview/wp-content/uploads/2021/03/ויתניה-פדקו-1-300x224.png 300w, /ronimor-preview/wp-content/uploads/2021/03/ויתניה-פדקו-1-164x122.png 164w, /ronimor-preview/wp-content/uploads/2021/03/ויתניה-פדקו-1-328x245.png 328w, /ronimor-preview/wp-content/uploads/2021/03/ויתניה-פדקו-1-100x75.png 100w, /ronimor-preview/wp-content/uploads/2021/03/ויתניה-פדקו-1-200x149.png 200w, /ronimor-preview/wp-content/uploads/2021/03/ויתניה-פדקו-1-324x242.png 324w" sizes="(max-width: 486px) 100vw, 486px" />									</span>
+
+									<a href="/ronimor-preview/#contact-us" class="btn btn--green btn--alt" target="_self">
+
+										<strong>ויתניה פדקו</strong> הרצליה פיתוח									</a>
+								</div><!-- /.slider__slide swiper-slide -->
+															<div class="slider__slide swiper-slide">
+									<span class="image-fit js-image-fit">
+										<img width="486" height="365" src="/ronimor-preview/wp-content/uploads/2021/03/ויקטוריה-1-486x365.png" class="attachment-slide_img_small size-slide_img_small" alt="ויקטוריה" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/03/ויקטוריה-1-486x365.png 486w, /ronimor-preview/wp-content/uploads/2021/03/ויקטוריה-1-300x224.png 300w, /ronimor-preview/wp-content/uploads/2021/03/ויקטוריה-1-164x122.png 164w, /ronimor-preview/wp-content/uploads/2021/03/ויקטוריה-1-328x245.png 328w, /ronimor-preview/wp-content/uploads/2021/03/ויקטוריה-1-100x75.png 100w, /ronimor-preview/wp-content/uploads/2021/03/ויקטוריה-1-200x149.png 200w, /ronimor-preview/wp-content/uploads/2021/03/ויקטוריה-1-324x242.png 324w" sizes="(max-width: 486px) 100vw, 486px" />									</span>
+
+									<a href="/ronimor-preview/#contact-us" class="btn btn--green btn--alt" target="_self">
+
+										<strong>בית ויקטוריה</strong> תל אביב									</a>
+								</div><!-- /.slider__slide swiper-slide -->
+															<div class="slider__slide swiper-slide">
+									<span class="image-fit js-image-fit">
+										<img width="486" height="365" src="/ronimor-preview/wp-content/uploads/2021/03/בית-שביט-1-486x365.png" class="attachment-slide_img_small size-slide_img_small" alt="בית שביט" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/03/בית-שביט-1-486x365.png 486w, /ronimor-preview/wp-content/uploads/2021/03/בית-שביט-1-300x224.png 300w, /ronimor-preview/wp-content/uploads/2021/03/בית-שביט-1-164x122.png 164w, /ronimor-preview/wp-content/uploads/2021/03/בית-שביט-1-328x245.png 328w, /ronimor-preview/wp-content/uploads/2021/03/בית-שביט-1-100x75.png 100w, /ronimor-preview/wp-content/uploads/2021/03/בית-שביט-1-200x149.png 200w, /ronimor-preview/wp-content/uploads/2021/03/בית-שביט-1-324x242.png 324w" sizes="(max-width: 486px) 100vw, 486px" />									</span>
+
+									<a href="/ronimor-preview/#contact-us" class="btn btn--green btn--alt" target="_self">
+
+										<strong>בית שביט</strong> תל אביב									</a>
+								</div><!-- /.slider__slide swiper-slide -->
+															<div class="slider__slide swiper-slide">
+									<span class="image-fit js-image-fit">
+										<img width="486" height="365" src="/ronimor-preview/wp-content/uploads/2021/06/unnamed-1-486x365.png" class="attachment-slide_img_small size-slide_img_small" alt="בית עמוס" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/06/unnamed-1-486x365.png 486w, /ronimor-preview/wp-content/uploads/2021/06/unnamed-1-972x730.png 972w" sizes="(max-width: 486px) 100vw, 486px" />									</span>
+
+									<a href="/ronimor-preview/#contact-us" class="btn btn--green btn--alt" target="_self">
+
+										<strong>בית עמוס</strong> פתח תקוה									</a>
+								</div><!-- /.slider__slide swiper-slide -->
+															<div class="slider__slide swiper-slide">
+									<span class="image-fit js-image-fit">
+										<img width="486" height="365" src="/ronimor-preview/wp-content/uploads/2021/07/DJI_0211-486x365.jpg" class="attachment-slide_img_small size-slide_img_small" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2021/07/DJI_0211-486x365.jpg 486w, /ronimor-preview/wp-content/uploads/2021/07/DJI_0211-972x730.jpg 972w" sizes="(max-width: 486px) 100vw, 486px" />									</span>
+
+									<a href="/ronimor-preview/#contact-us" class="btn btn--green btn--alt" target="_self">
+
+										<strong>הר חוצבים</strong> ירושלים									</a>
+								</div><!-- /.slider__slide swiper-slide -->
+															<div class="slider__slide swiper-slide">
+									<span class="image-fit js-image-fit">
+										<img width="486" height="365" src="/ronimor-preview/wp-content/uploads/2024/03/DSC_6790liorgrundman_small-486x365.jpg" class="attachment-slide_img_small size-slide_img_small" alt="" decoding="async" />									</span>
+
+									<a href="/ronimor-preview/#contact-us" class="btn btn--green btn--alt" target="_self">
+
+										<strong>כוכב הרצליה</strong> הרצליה									</a>
+								</div><!-- /.slider__slide swiper-slide -->
+															<div class="slider__slide swiper-slide">
+									<span class="image-fit js-image-fit">
+										<img width="486" height="365" src="/ronimor-preview/wp-content/uploads/2024/03/cognite_with_amot-100-486x365.jpg" class="attachment-slide_img_small size-slide_img_small" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2024/03/cognite_with_amot-100-486x365.jpg 486w, /ronimor-preview/wp-content/uploads/2024/03/cognite_with_amot-100-972x730.jpg 972w" sizes="(max-width: 486px) 100vw, 486px" />									</span>
+
+									<a href="/ronimor-preview/#contact-us" class="btn btn--green btn--alt" target="_self">
+
+										<strong>בית קוגנייט</strong> הרצליה									</a>
+								</div><!-- /.slider__slide swiper-slide -->
+															<div class="slider__slide swiper-slide">
+									<span class="image-fit js-image-fit">
+										<img width="486" height="365" src="/ronimor-preview/wp-content/uploads/2024/03/ziviel_with_amot-100-486x365.jpg" class="attachment-slide_img_small size-slide_img_small" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2024/03/ziviel_with_amot-100-486x365.jpg 486w, /ronimor-preview/wp-content/uploads/2024/03/ziviel_with_amot-100-972x730.jpg 972w" sizes="(max-width: 486px) 100vw, 486px" />									</span>
+
+									<a href="/ronimor-preview/#contact-us" class="btn btn--green btn--alt" target="_self">
+
+										<strong>בית זיויאל </strong> תל אביב									</a>
+								</div><!-- /.slider__slide swiper-slide -->
+													</div><!-- /.slider__slides swiper-wrapper -->
+					</div><!-- /.slider__clip swiper-container -->
+
+					<div class="swiper-pagination"></div><!-- /.swiper-pagination -->
+				</div><!-- /.slider slider-/-gallery js-slider-gallery -->
+			</div><!-- /.section__body -->
+		</div><!-- /.section__inner -->
+	</div><!-- /.shell -->
+</section><!-- /.section-gallery -->
+<section class="section-form" data-scroll-id="contact-us" style="background-color: #FDE18D;">
+	<div class="section__inner">
+		<div class="shell">
+			
+			<div class="section__body">
+				<div class="section__content">
+					
+                <div class='gf_browser_unknown gform_wrapper gform_legacy_markup_wrapper gform-theme--no-framework' data-form-theme='legacy' data-form-index='0' id='gform_wrapper_1' ><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_1' id='gform_1'  action='/' data-formid='1' novalidate>
+                        <div class='gform-body gform_body'><ul id='gform_fields_1' class='gform_fields top_label form_sublabel_below description_below validation_below'><li id="field_1_1" class="gfield gfield--type-text gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible gfield--text gfield--large"  data-field-class="gfield--text gfield--large" ><label class='gfield_label gform-field-label' for='input_1_1'>שם פרטי<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_text'><input name='input_1' id='input_1_1' type='text' value='' class='large'   tabindex='10' placeholder='*שם פרטי' aria-required="true" aria-invalid="false"   /></div></li><li id="field_1_2" class="gfield gfield--type-text gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible gfield--text gfield--large"  data-field-class="gfield--text gfield--large" ><label class='gfield_label gform-field-label' for='input_1_2'>שם משפחה<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_text'><input name='input_2' id='input_1_2' type='text' value='' class='large'   tabindex='11' placeholder='*שם משפחה' aria-required="true" aria-invalid="false"   /></div></li><li id="field_1_3" class="gfield gfield--type-email gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible gfield--email gfield--large"  data-field-class="gfield--email gfield--large" ><label class='gfield_label gform-field-label' for='input_1_3'>אימייל<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_3' id='input_1_3' type='email' value='' class='large' tabindex='12'  placeholder='*אימייל' aria-required="true" aria-invalid="false"  />
+                        </div></li><li id="field_1_4" class="gfield gfield--type-phone field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible gfield--phone gfield--large"  data-field-class="gfield--phone gfield--large" ><label class='gfield_label gform-field-label' for='input_1_4'>טלפון</label><div class='ginput_container ginput_container_phone'><input name='input_4' id='input_1_4' type='tel' value='' class='large' tabindex='13' placeholder='טלפון'  aria-invalid="false"   /></div></li><li id="field_1_5" class="gfield gfield--type-textarea field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible gfield--textarea gfield--large"  data-field-class="gfield--textarea gfield--large" ><label class='gfield_label gform-field-label' for='input_1_5'>הודעה</label><div class='ginput_container ginput_container_textarea'><textarea name='input_5' id='input_1_5' class='textarea large' tabindex='14'   placeholder='הודעה'  aria-invalid="false"   rows='10' cols='50'></textarea></div></li><li id="field_1_6" class="gfield gfield--type-captcha field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible gfield--captcha gfield--medium"  data-field-class="gfield--captcha gfield--medium" ><label class='gfield_label gform-field-label' for='input_1_6'>CAPTCHA</label><div id='input_1_6' class='ginput_container ginput_recaptcha' data-sitekey='6LfbK84aAAAAAIQXFyOAUVEoc_8UYKc6zYDXLpE9'  data-theme='light' data-tabindex='15'  data-badge=''></div></li></ul></div>
+        <div class='gform-footer gform_footer top_label'> <input type='submit' id='gform_submit_button_1' class='gform_button button' onclick='gform.submission.handleButtonClick(this);' data-submission-type='submit' value='שליחה' tabindex='16' /> <input type='hidden' name='gform_ajax' value='form_id=1&amp;title=&amp;description=&amp;tabindex=10&amp;theme=legacy&amp;hash=b7d15ae4da1f0a3d83f649a45d89dada' />
+            <input type='hidden' class='gform_hidden' name='gform_submission_method' data-js='gform_submission_method_1' value='iframe' />
+            <input type='hidden' class='gform_hidden' name='gform_theme' data-js='gform_theme_1' id='gform_theme_1' value='legacy' />
+            <input type='hidden' class='gform_hidden' name='gform_style_settings' data-js='gform_style_settings_1' id='gform_style_settings_1' value='' />
+            <input type='hidden' class='gform_hidden' name='is_submit_1' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='1' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_currency' data-currency='USD' value='EExYjwnYw4F9L6erWuKd/bmfZXaY9IDgmKlayoGXR7zCqVGGIV93cAmzVUAx5+XHESL2IAtvHtwPqgr05UI+8wSZE1vQ5ByukHYhvtWBaecrQH8=' />
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_1' value='WyJbXSIsIjQxM2MyOGViMmRkNmNiNjZhZWFiMTU2YTlmMmMzZjliIl0=' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_target_page_number_1' id='gform_target_page_number_1' value='0' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_source_page_number_1' id='gform_source_page_number_1' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </form>
+                        </div>
+		                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_1' id='gform_ajax_frame_1' title='Iframe זה מכיל את התנאי הנדרש לטיפול ב-Gravity Forms באמצעות Ajax.'></iframe>
+		                <script>
+gform.initializeOnLoaded( function() {gformInitSpinner( 1, '/ronimor-preview/wp-content/themes/ronimor/resources/images/spinner.svg', true );jQuery('#gform_ajax_frame_1').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_1');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_1').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_1').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_1').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_1').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */  }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_1').val();gformInitSpinner( 1, '/ronimor-preview/wp-content/themes/ronimor/resources/images/spinner.svg', true );jQuery(document).trigger('gform_page_loaded', [1, current_page]);window['gf_submitting_1'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}jQuery('#gform_wrapper_1').replaceWith(confirmation_content);jQuery(document).trigger('gform_confirmation_loaded', [1]);window['gf_submitting_1'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_1').text());}else{jQuery('#gform_1').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger("gform_pre_post_render", [{ formId: "1", currentPage: "current_page", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_1" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_1";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_1" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 1, current_page );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );} );
+</script>
+				</div><!-- /.section__content -->
+
+				<aside class="section__aside">
+											<h2>מאפשרים לך להתרכז<br />
+בדברים החשובים באמת</h2>
+					
+					<div class="list-contacts">
+						<ul>
+															<li>
+																			<strong>כתובת</strong>
+									
+									<p>
+																					<a href="https://goo.gl/maps/uFJCnxeyz6DfxW9K6" target="_blank">
+										
+											ראול ולנברג 4, רמת החיל, תל אביב
+																					</a>
+																			</p>
+								</li>
+							
+																								<li>
+										<strong>משרד</strong>
+
+										<p>
+											<a href="tel:036488777">03-6488777</a>
+										</p>
+									</li>
+																	<li>
+										<strong>פקס</strong>
+
+										<p>
+											<a href="tel:036488774">03-6488774</a>
+										</p>
+									</li>
+															
+																								<li>
+										<strong>מייל</strong>
+
+										<p>
+											<a href="mailto:o&#102;f&#105;&#99;&#101;&#64;&#114;onimo&#114;&#46;c&#111;.&#105;l">&#111;&#102;&#102;i&#99;e&#64;ro&#110;&#105;&#109;&#111;r.c&#111;.i&#108;</a>
+										</p>
+									</li>
+																					</ul>
+					</div><!-- /.list-contacts -->
+				</aside><!-- /.section__aside -->
+			</div><!-- /.section__body -->
+		</div><!-- /.shell -->
+	</div><!-- /.section__inner -->
+
+			<div class="section__image">
+			<img width="647" height="143" src="/ronimor-preview/wp-content/uploads/2020/11/section-form-image.png" class="attachment-slide_img size-slide_img" alt="" decoding="async" srcset="/ronimor-preview/wp-content/uploads/2020/11/section-form-image.png 647w, /ronimor-preview/wp-content/uploads/2020/11/section-form-image-300x66.png 300w, /ronimor-preview/wp-content/uploads/2020/11/section-form-image-164x36.png 164w, /ronimor-preview/wp-content/uploads/2020/11/section-form-image-328x72.png 328w, /ronimor-preview/wp-content/uploads/2020/11/section-form-image-100x22.png 100w, /ronimor-preview/wp-content/uploads/2020/11/section-form-image-200x44.png 200w, /ronimor-preview/wp-content/uploads/2020/11/section-form-image-324x72.png 324w" sizes="(max-width: 647px) 100vw, 647px" />		</div><!-- /.section__image -->
+	</section><!-- /.section-form -->
+			</div><!-- /.main -->
+
+			<footer class="footer">
+									<div class="footer__bar">
+						<nav class="footer__nav js-nav-scroll-to"><ul id="menu-main-menu-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-11"><a href="/ronimor-preview/#about-us">עלינו</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-12"><a href="/ronimor-preview/#customers">לקוחותינו</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-13"><a href="/ronimor-preview/#services">שירותים</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-14"><a href="/ronimor-preview/#property">נכסים</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-15"><a href="/ronimor-preview/#career">קריירה</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-16"><a href="/ronimor-preview/#contact-us">צור קשר</a></li>
+</ul></nav>					</div><!-- /.footer__bar -->
+				
+									<div class="footer__bottom">
+						<div class="footer__copyright">
+							<p>כל הזכויות שמוריות לרונימור ® Ronimor | עיצוב aswedesign</p>
+						</div><!-- /.footer__copyright -->
+					</div><!-- /.footer__bottom -->
+							</footer><!-- /.footer -->
+		</div><!-- /.wrapper__inner -->
+
+		
+<nav class="nav-icons">
+	<ul>
+		<li>
+			<button class="js-link-icons" type="button">
+				<i class="ico ico-options"></i>
+			</button>
+
+			<ul>
+				<li>
+					<a href="#" class="btn-option js-btn-option" data-option="increase">
+						<i class="fa fa-search-plus"></i>
+
+						<span>הגדלת טקסט</span>
+					</a>
+				</li>
+
+				<li>
+					<a href="#" class="btn-option js-btn-option" data-option="decrease">
+						<i class="fa fa-search-minus"></i>
+
+						<span>הקטנת טקסט</span>
+					</a>
+				</li>
+
+				<li>
+					<a href="#" class="btn-option js-btn-option" data-option="black">
+						<i class="fa fa-cog"></i>
+
+						<span>שחור ולבן</span>
+					</a>
+				</li>
+
+				<li>
+					<a href="#" class="btn-option js-btn-option" data-option="contrast">
+						<i class="fa fa-adjust"></i>
+
+						<span>ניגודיות גבוהה</span>
+					</a>
+				</li>
+
+				<li>
+					<a href="#" class="btn-option js-btn-option" data-option="highlight">
+						<i class="fa fa-link"></i>
+
+						<span>הדגשת לינקים</span>
+					</a>
+				</li>
+
+				<li>
+					<a href="#" class="btn-option js-btn-option" data-option="font">
+						<i class="fa fa-font"></i>
+
+						<span>גופן מערכת</span>
+					</a>
+				</li>
+
+				<li>
+					<a href="#" class="btn-option js-btn-option" data-option="reset">
+						<i class="fa fa-undo"></i>
+
+						<span>איפוס</span>
+					</a>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</nav><!-- /.nav-icons -->
+	</div><!-- /.wrapper -->
+
+	<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/ronimor-preview/wp-content/uploads/*","/ronimor-preview/wp-content/*","/ronimor-preview/wp-content/plugins/*","/ronimor-preview/wp-content/themes/ronimor/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="theme-js-bundle-js" src="/ronimor-preview/wp-content/themes/ronimor/dist/js/bundle-888152b80d.js"></script>
+<script async data-wp-strategy="async" fetchpriority="low" id="comment-reply-js" src="/ronimor-preview/wp-includes/js/comment-reply.min.js?ver=7.0"></script>
+<script id="wp-dom-ready-js" src="/ronimor-preview/wp-includes/js/dist/dom-ready.min.js?ver=a06281ae5cf5500e9317"></script>
+<script id="wp-hooks-js" src="/ronimor-preview/wp-includes/js/dist/hooks.min.js?ver=7496969728ca0f95732d"></script>
+<script id="wp-i18n-js" src="/ronimor-preview/wp-includes/js/dist/i18n.min.js?ver=781d11515ad3d91786ec"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'rtl' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="wp-a11y-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2023-05-28 22:06:16+0000","generator":"GlotPress\/4.0.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"he_IL"},"Notifications":["\u05d4\u05ea\u05e8\u05d0\u05d5\u05ea"]}},"comment":{"reference":"wp-includes\/js\/dist\/a11y.js"}} );
+//# sourceURL=wp-a11y-js-translations
+</script>
+<script id="wp-a11y-js" src="/ronimor-preview/wp-includes/js/dist/a11y.min.js?ver=af934e5259bc51b8718e"></script>
+<script id="gform_json-js" defer='defer' src="/ronimor-preview/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.10.4"></script>
+<script id="gform_gravityforms-js-extra">
+var gform_i18n = {"datepicker":{"days":{"monday":"Mo","tuesday":"Tu","wednesday":"We","thursday":"Th","friday":"Fr","saturday":"Sa","sunday":"Su"},"months":{"january":"\u05d9\u05e0\u05d5\u05d0\u05e8","february":"\u05e4\u05d1\u05e8\u05d5\u05d0\u05e8","march":"\u05de\u05e8\u05e5","april":"\u05d0\u05e4\u05e8\u05d9\u05dc","may":"\u05de\u05d0\u05d9","june":"\u05d9\u05d5\u05e0\u05d9","july":"\u05d9\u05d5\u05dc\u05d9","august":"\u05d0\u05d5\u05d2\u05d5\u05e1\u05d8","september":"\u05e1\u05e4\u05d8\u05de\u05d1\u05e8","october":"\u05d0\u05d5\u05e7\u05d8\u05d5\u05d1\u05e8","november":"\u05e0\u05d5\u05d1\u05de\u05d1\u05e8","december":"\u05d3\u05e6\u05de\u05d1\u05e8"},"firstDay":1,"iconText":"Select date"}};
+var gf_legacy_multi = [];
+var gform_gravityforms = {"strings":{"invalid_file_extension":"\u05e1\u05d5\u05d2 \u05d6\u05d4 \u05e9\u05dc \u05e7\u05d5\u05d1\u05e5 \u05d0\u05e1\u05d5\u05e8. \u05d7\u05d9\u05d9\u05d1 \u05dc\u05d4\u05d9\u05d5\u05ea \u05d0\u05d7\u05d3 \u05de\u05d4\u05d1\u05d0\u05d9\u05dd:","file_uploaded":"File uploaded","delete_file":"\u05de\u05d7\u05e7 \u05e7\u05d5\u05d1\u05e5 \u05d6\u05d4","in_progress":"\u05d1\u05ea\u05d4\u05dc\u05d9\u05da","file_exceeds_limit":"\u05d4\u05e7\u05d5\u05d1\u05e5 \u05d7\u05d5\u05e8\u05d2 \u05de\u05de\u05d2\u05d1\u05dc\u05ea \u05d4\u05d2\u05d5\u05d3\u05dc","illegal_extension":"\u05e1\u05d5\u05d2 \u05d6\u05d4 \u05e9\u05dc \u05e7\u05d5\u05d1\u05e5 \u05d0\u05e1\u05d5\u05e8.","max_reached":"\u05d4\u05d2\u05e2\u05ea \u05dc\u05de\u05e1\u05e4\u05e8 \u05d4\u05e7\u05d1\u05e6\u05d9\u05dd \u05d4\u05de\u05e8\u05d1\u05d9","unknown_error":"\u05d0\u05d9\u05e8\u05e2\u05d4 \u05d1\u05e2\u05d9\u05d4 \u05d1\u05e9\u05de\u05d9\u05e8\u05ea \u05d4\u05e7\u05d5\u05d1\u05e5 \u05d1\u05e9\u05e8\u05ea","currently_uploading":"\u05e0\u05d0 \u05dc\u05d4\u05de\u05ea\u05d9\u05df \u05dc\u05e1\u05d9\u05d5\u05dd \u05d4\u05d4\u05e2\u05dc\u05d0\u05d4","cancel":"\u05d1\u05d9\u05d8\u05d5\u05dc","cancel_upload":"\u05d1\u05d8\u05dc \u05d4\u05e2\u05dc\u05d0\u05ea \u05e7\u05d5\u05d1\u05e5","cancelled":"\u05d1\u05d5\u05d8\u05dc","error":"\u05e9\u05d2\u05d9\u05d0\u05d4","message":"\u05d4\u05d5\u05d3\u05e2\u05d4"},"vars":{"images_url":"/ronimor-preview/wp-content/plugins/gravityforms/images"}};
+var gf_global = {"gf_currency_config":{"name":"\u05d3\u05d5\u05dc\u05e8 \u05d0\u05de\u05e8\u05d9\u05e7\u05d0\u05d9","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2,"code":"USD"},"base_url":"/ronimor-preview/wp-content/plugins/gravityforms","number_formats":[],"spinnerUrl":"/ronimor-preview/wp-content/plugins/gravityforms/images/spinner.svg","version_hash":"68455d1f8220f056cc2491e02d92062b","strings":{"newRowAdded":"\u05e0\u05d5\u05e1\u05e4\u05d4 \u05e9\u05d5\u05e8\u05d4 \u05d7\u05d3\u05e9\u05d4.","rowRemoved":"\u05e9\u05d5\u05e8\u05d4 \u05d4\u05d5\u05e1\u05e8\u05d4","formSaved":"\u05d4\u05d8\u05d5\u05e4\u05e1 \u05e0\u05e9\u05de\u05e8. \u05d4\u05ea\u05d5\u05db\u05df \u05de\u05db\u05d9\u05dc \u05d0\u05ea \u05d4\u05e7\u05d9\u05e9\u05d5\u05e8 \u05dc\u05d7\u05d6\u05e8\u05d4 \u05d5\u05de\u05d9\u05dc\u05d5\u05d9 \u05d4\u05d8\u05d5\u05e4\u05e1."}};
+//# sourceURL=gform_gravityforms-js-extra
+</script>
+<script id="gform_gravityforms-js" defer='defer' src="/ronimor-preview/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.10.4"></script>
+<script id="gform_recaptcha-js" defer='defer' src="https://www.google.com/recaptcha/api.js?hl=en&#038;&#038;ver=7.0#038;render=explicit"></script>
+<script id="gform_placeholder-js" defer='defer' src="/ronimor-preview/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.10.4"></script>
+<script id="gform_gravityforms_utils-js" defer='defer' src="/ronimor-preview/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js?ver=3f278756f0a3032bed328ff6a9f6c01d"></script>
+<script id="gform_gravityforms_theme_vendors-js" defer='defer' src="/ronimor-preview/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js?ver=7c651d0ba638ce98b9c65141edddd567"></script>
+<script id="gform_gravityforms_theme-js-extra">
+var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"68455d1f8220f056cc2491e02d92062b"},"ajax":{"ajaxurl":"/ronimor-preview/wp-admin/admin-ajax.php","ajax_submission_nonce":"8212e7a66d","i18n":{"step_announcement":"Step %1$s of %2$s, %3$s","unknown_error":"There was an unknown error processing your request. Please try again.","error_403":"The request was blocked (403 error) for unknown security reasons. Remove any code-like text (scripts or DB queries) and try again."}}}},"hmr_dev":"","public_path":"/ronimor-preview/wp-content/plugins/gravityforms/assets/js/dist/","config_nonce":"aa77546885"};
+//# sourceURL=gform_gravityforms_theme-js-extra
+</script>
+<script id="gform_gravityforms_theme-js" defer='defer' src="/ronimor-preview/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=301fdc9aa6144168f3b854c4c2c8f6d3"></script>
+<script>
+gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 1) {if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }} } );jQuery(document).on('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } );
+</script>
+<script>
+gform.initializeOnLoaded( function() {jQuery(document).trigger("gform_pre_post_render", [{ formId: "1", currentPage: "1", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_1" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_1";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_1" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 1, 1 );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );
+</script>
+</body>
+</html>
